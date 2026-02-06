@@ -1,0 +1,2 @@
+This line is added using W+ mode.
+ this senetence is added using a+ mode

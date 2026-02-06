@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+    int *h;
+    h = (int *)malloc(10 * sizeof(int));
+    h = (int *)realloc(h, 15 * sizeof(int));
+    return 0;
+    //realloc is used to resize the memory block that was previously allocated by malloc or calloc.
+}
